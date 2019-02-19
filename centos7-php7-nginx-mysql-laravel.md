@@ -65,6 +65,8 @@ mv composer.phar /usr/local/bin/composer
 
 
 12.安装laravel
+换源
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
 composer global require "laravel/installer"
 
 13.启动laravel
