@@ -4,11 +4,19 @@
 
 3.网络调整为桥接模式
 
-4.yum install net-tools
+5. 添加DNS服务器
+vi /etc/resolv.conf
+nameserver 114.114.114.114
+nameserver 114.114.114.115
+
+vi /etc/sysconfig/network-scprits/ifcfg-ens33
+ONBOOT=NO 改成 ONBOOT=yes
 
 4.检查ssh服务开启
 
 5.外部系统连接ssh
+
+4.yum update
 
 6.yum安装php7.2
 
