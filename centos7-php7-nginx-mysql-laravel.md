@@ -60,7 +60,11 @@ server {
 10.检验web上访问php情况
 
 11.安装composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
 
 12.安装laravel
+composer global require "laravel/installer"
 
 13.启动laravel
