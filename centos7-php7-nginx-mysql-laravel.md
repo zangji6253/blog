@@ -74,3 +74,4 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com
 composer create-project --prefer-dist laravel/laravel project
 
 13.启动laravel
+chown -R :apache storage/
