@@ -70,4 +70,6 @@ mv composer.phar /usr/local/bin/composer
 composer config -g repo.packagist composer https://packagist.phpcomposer.com
 composer global require "laravel/installer"
 
+~/.config/composer/vendor/bin/laravel new gp
+
 13.启动laravel
