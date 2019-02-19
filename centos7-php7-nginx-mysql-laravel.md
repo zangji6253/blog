@@ -34,6 +34,7 @@ systemctl start nginx
 php-fmp
 
 9.修改nginx配置
+```
 server {
     listen 80;
     server_name example.com;
@@ -57,6 +58,7 @@ server {
         fastcgi_pass 127.0.0.1:9000;
     }
 }
+```
 
 10.检验web上访问php情况
 
