@@ -4,6 +4,8 @@
 
 3.网络调整为桥接模式
 
+4.yum install net-tools
+
 4.检查ssh服务开启
 
 5.外部系统连接ssh
