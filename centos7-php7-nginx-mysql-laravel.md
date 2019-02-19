@@ -22,9 +22,15 @@ ONBOOT=NO 改成 ONBOOT=yes
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 yum -y install php72w php72w-cli php72w-common php72w-devel php72w-embedded php72w-fpm php72w-gd php72w-mbstring php72w-mysqlnd php72w-opcache php72w-pdo php72w-xml
 
+systemctl start php-fpm
+
 7.yum安装nginx,mysql
+yum install -y nginx mysql
+iptables -F
+systemctl start nginx
 
 8.启动php-fmp
+php-fmp
 
 9.修改nginx配置
 
